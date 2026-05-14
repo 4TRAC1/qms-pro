@@ -1,0 +1,24 @@
+{
+  "name": "qms-pro",
+  "version": "2.0.0",
+  "description": "QMS Pro — AI-Powered Compliance Platform for Manufacturing SMBs",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.1",
+    "@supabase/supabase-js": "^2.45.4",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.8.3",
+    "date-fns": "^3.6.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.2"
+  }
+}

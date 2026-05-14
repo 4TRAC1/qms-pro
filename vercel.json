@@ -1,0 +1,14 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "installCommand": "npm install",
+  "framework": "vite",
+  "rewrites": [
+    { "source": "/api/stripe/checkout", "destination": "/api/stripe/checkout" },
+    { "source": "/api/stripe/portal",   "destination": "/api/stripe/portal" },
+    { "source": "/api/stripe/webhook",  "destination": "/api/stripe/webhook" },
+    { "source": "/api/email/send",      "destination": "/api/email/send" },
+    { "source": "/api/generate",        "destination": "/api/generate" },
+    { "source": "/(.*)",                "destination": "/index.html" }
+  ]
+}
